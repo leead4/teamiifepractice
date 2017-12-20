@@ -1,7 +1,6 @@
 ***********
 This is a boilerplate iife that should accomplish the major points of the sandwich maker iife assigment with a few bugs here and there that need attention.
-
-##Bug Fixes
+## Bug Fixes
 
 * the current showSandwich() method prints to the dom underneath previous prints....
 make a function that clears the output area to only show the most updated sandwich order
@@ -12,7 +11,7 @@ I want to be able to add my sandwiches to an order, change them, or remove them 
 
 
 
-##New Features 
+## New Features 
 
 * The user has a total order which shows them their drinks, sandwich and sides 
 as well as the total cost of their order
