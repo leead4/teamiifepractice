@@ -1,11 +1,11 @@
 "use strict";
-console.log("hello sandwhich maker");
+console.log("hello sandwich maker");
 
 var SandwichMaker = (function() {
 
   // Private variable to store the price
   var totalPrice = 0;
-  var sandwhich = [];
+  var sandwich = [];
 
   // this is where are getters and setters are
   // check this explanation out for a little clarity 
@@ -22,7 +22,7 @@ var SandwichMaker = (function() {
         console.log(sandwhich);
      },
     getSandwichName: function() {
-      return sandwhich;
+      return sandwich;
      },
     getSandwichPrice: function(){
       return totalPrice;

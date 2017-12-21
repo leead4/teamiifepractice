@@ -5,7 +5,7 @@ This is a boilerplate iife that should accomplish the major points of the sandwi
 * the current showSandwich() method prints to the dom underneath previous prints....
 make a function that clears the output area to only show the most updated sandwich order
 
-* right now the sandwhich toppings are being stored as strings in an array 
+* right now the sandwich toppings are being stored as strings in an array 
 I want to be able to add my sandwiches to an order, change them, or remove them if I want to ...so I think it would make more sense to store my sandwiches in object form 
 
 
