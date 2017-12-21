@@ -8,11 +8,11 @@ var selectedTopping;
 
 // Get a reference to the <select> element that has all the meat options
 // var meatChooser = document.getElementById("meat-chooser");
-var sandChooser = document.getElementById("sandwhich");
+var sandChooser = document.getElementById("sandwich");
 var showPriceBtn = document.getElementById("showPrice");
-var showSandwhichBtn = document.getElementById("showSandwhich");
-var sandwhichOutput = document.getElementById('sandwhichOutput');
-var sandwhichCostOutput = document.getElementById('sandwhichCostOutput');
+var showSandwichBtn = document.getElementById("showSandwich");
+var sandwichOutput = document.getElementById('sandwichOutput');
+var sandwichCostOutput = document.getElementById('sandwichCostOutput');
 var x = document.getElementById("targetSelect");
 
 
@@ -51,17 +51,17 @@ showPriceBtn.addEventListener('click', function(){
 	var price_nameElement = document.createElement('H3');
 		price_nameElement.appendChild(price_nameNode);
 
-	sandwhichCostOutput.appendChild(price_nameElement);
+	sandwichCostOutput.appendChild(price_nameElement);
 });
 
-showSandwhichBtn.addEventListener("click", function(){
+showSandwichBtn.addEventListener("click", function(){
 	var s_name = SandwichMaker.getSandwichName();
 	console.log(s_name);
 	var s_nameNode = document.createTextNode(s_name);
 	var s_nameElement = document.createElement('H3');
 		s_nameElement.appendChild(s_nameNode);
 
-	sandwhichOutput.appendChild(s_nameElement);
+	sandwichOutput.appendChild(s_nameElement);
 });
 
 
